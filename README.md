@@ -14,3 +14,18 @@ Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
+Initialize Git
+```bash
+git init
+```
+
+Initialize dvc
+```
+dvc init
+```
+
+Add the data to the dvc tracking
+```
+dvc add data_given/data.csv
+```
